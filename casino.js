@@ -1,5 +1,9 @@
 alert("Welcome to the Roulette Game! You have $500 to spend. Good Luck!")
-
+if (confirm("Press Ok to confirm the amount!")) {
+  txt = "Let's get started!";
+} else {
+  txt = "Nope not enough!";
+}
 
 const roulette = numbers => {
   const array = [];
